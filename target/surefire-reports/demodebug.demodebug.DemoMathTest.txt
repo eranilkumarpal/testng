@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: demodebug.demodebug.DemoMathTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.43 sec <<< FAILURE!
+testAdd(demodebug.demodebug.DemoMathTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+java.lang.AssertionError: expected [15] but found [16]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at demodebug.demodebug.DemoMathTest.testAdd(DemoMathTest.java:24)
+

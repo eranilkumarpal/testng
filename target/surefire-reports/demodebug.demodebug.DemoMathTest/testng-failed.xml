@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [demodebug.demodebug.DemoMathTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="demodebug.demodebug.DemoMathTest">
+        <methods>
+          <include name="testAdd"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- demodebug.demodebug.DemoMathTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [demodebug.demodebug.DemoMathTest] -->
